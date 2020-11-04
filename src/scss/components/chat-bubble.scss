@@ -1,0 +1,39 @@
+.chat-bubble {
+    margin: 16px 0 0 0;
+    padding: 16px 0 0 0;
+    max-width: 420px;
+    min-width: 200px;
+    border: 1px solid #d4dade;
+    border-radius: 4px;
+    color: #434b54;
+    font-size: 18px;
+    background-color: #fff;
+    align-self: flex-start;
+
+    .text {
+        padding: 0 16px;
+    }
+
+    .author, .time {
+        font-size: 16px;
+        color: #b3bcc3;
+    }
+
+    .author {
+        padding: 0 16px 4px 16px;
+    }
+
+    .time {
+        padding: 4px 16px 16px 16px;
+    }
+
+    &.user {
+        background-color: #fcf6c5;
+        align-self: flex-end;
+
+        .time {
+            text-align: right;
+            padding: 12px 8px 8px 8px;
+        }
+    }
+}
